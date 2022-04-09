@@ -1,0 +1,148 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position : fixed;
+    background-color : #0B0A0F;
+    touch-action: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 7px;
+    position: absolute;
+    user-select: none;
+    touch-action: none;
+    cursor:pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-width{
+    width: 150px;
+    height: 3px;
+    background-color: #F7CE40;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#box-height{
+    width: 4px;
+    height: 150px;
+    background-color: #F7CE40;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+#top{
+    width: 4px;
+    background-color: #22CC9B;
+    position: absolute;
+    top: 0;
+}
+
+#bottom{
+    width: 4px;
+    background-color: #8152FF;
+    position: absolute;
+    top: 0;
+}
+
+#left{
+    height: 4px;
+    background-color: #F058D6;
+    position: absolute;
+    left: 0;
+}
+
+#right{
+    height: 4px;
+    background-color: #E97866;
+    position: absolute;
+    left: 0;
+}
+
+#info{
+    width:170px;
+    height: 250px;
+
+    position: fixed;
+    right: 15px;
+    top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.color-div{
+    height: 25px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+#top-div-color{
+    background-color: #22CC9B;
+}
+
+#bottom-div-color{
+    background-color: #8152FF;
+}
+
+#left-div-color{
+    background-color: #F058D6;
+}
+
+#right-div-color{
+    background-color: #E97866;
+}
+
+#width-div-color{
+    background-color: #F7CE40;
+}
+
+#height-div-color{
+    background-color: #F7CE40;
+}
+
+.value-div{
+    color: white;
+    font-weight: 800;
+}
+

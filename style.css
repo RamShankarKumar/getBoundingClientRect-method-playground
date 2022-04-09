@@ -148,3 +148,11 @@ body{
     font-weight: 800;
 }
 
+#origin{
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5rem;
+}
+
